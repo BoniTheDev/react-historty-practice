@@ -1,0 +1,79 @@
+.history-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .history-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.domain-card {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.time {
+  color: #64748b;
+  font-size: 15px;
+  font-weight: 600;
+  width: 80px;
+  padding-right: 0px;
+}
+.domain-logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .domain-logo {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    margin-top: 13px;
+  }
+
+  .history-title {
+    color: #475569;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 900;
+    margin-right: 5px;
+  }
+}
+
+.history-title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 900;
+  margin-right: 5px;
+}
+.domain-url {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.delete-card {
+  align-self: flex-end;
+  height: 35px;
+  width: 35px;
+  border: none;
+  background-color: transparent;
+}
+.delete-image {
+  height: 20px;
+  width: 20px;
+  align-self: flex-end;
+}
